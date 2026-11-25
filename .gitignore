@@ -1,0 +1,24 @@
+# ---- Build outputs (Android / Gradle) ----
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+app/build/
+
+# ---- Termux / shell extras (harmless but noisy) ----
+*.log
+*.tmp
+_*.txt
+
+# ---- Reference files not needed in repo ----
+keystore/debug.crt.der
+
+# ---- DO NOT ignore ----
+# keystore/debug.keystore  <-- explicitly kept: pinned debug signing key
+!keystore/debug.keystore
